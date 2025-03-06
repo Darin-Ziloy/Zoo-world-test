@@ -53,7 +53,7 @@ public class Frog : Prey
     
     private IEnumerator ResetJumpFlag()
     {
-        yield return new WaitForSeconds(0.5f); // Небольшая задержка
+        yield return new WaitForSeconds(0.5f);
         _isJumping = false;
     }
 }

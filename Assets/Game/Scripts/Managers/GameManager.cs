@@ -1,12 +1,10 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 public class GameManager : MonoBehaviour
 {
     [Inject] private AnimalFactory _animalFactory;
-    [Inject] private UIManager _uiManager;
     
     [SerializeField] private float _spawnInterval = 1.5f;
     [SerializeField] private Vector3 _spawnAreaSize = new Vector3(10f, 0f, 10f);
