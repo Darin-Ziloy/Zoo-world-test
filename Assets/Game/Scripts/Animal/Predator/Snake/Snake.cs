@@ -15,7 +15,7 @@ public class Snake : Predator
     {
         if (_isDead) return;
         
-        transform.position += _moveDirection * _moveSpeed * Time.fixedDeltaTime;
+        _rigidbody.linearVelocity = _moveDirection * _moveSpeed;
         
         if (_moveDirection != Vector3.zero)
         {
