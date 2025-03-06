@@ -78,4 +78,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spawnInterval: 1.5
   _spawnAreaSize: {x: 70, y: 0, z: 37}
-  _animalParent: {fileID: 467064944204339833}
+  _animalParent: {fileID: 3336067961629333963}
